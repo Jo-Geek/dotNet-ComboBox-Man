@@ -202,7 +202,7 @@ namespace ComboBoxMan
     ///         the zero based index of the column containing the 'value' member
     ///     </para>
     /// </param>    
-    public void add(DataTable dtMerge, string TextColumnIndex, string ValueColumnIndex)
+    public void add(DataTable dtMerge, int TextColumnIndex, int ValueColumnIndex)
     {
       try
       {
